@@ -8,16 +8,10 @@ import 'reflect-metadata';
 import { MikroORM } from '@mikro-orm/postgresql';
 import mikroConfig from './mikro-orm.config';
 import { buildSchema } from 'type-graphql';
-import { HelloResolver } from './resolvers/hello';
-import { PostResolver } from './resolvers/post';
 import { UserResolver } from './resolvers/user';
 import session from 'express-session';
 import Redis from 'ioredis';
-const cors = require("cors");
 const connectRedis = require('connect-redis');
-import { v2 as cloudinary } from 'cloudinary';
-import { ImageResolver } from './resolvers/image';
-import { ImageLikeResolver } from './resolvers/imagelikes';
 
 async function main() {
   const orm = await MikroORM.init(mikroConfig);
@@ -28,18 +22,6 @@ async function main() {
   const redis = new Redis();
 
   const RedisStore = new connectRedis(session);
-
-  cloudinary.config({
-    cloud_name: process.env.CLOUDINARY_CLOUD_NAME ,
-    api_key: process.env.CLOUDINARY_API_KEY ,
-    api_secret: process.env.CLOUDINARY_API_SECRET ,
-  });
-
-  app.use(
-    cors({
-    origin: process.env.CORS_ORIGIN,
-    credentials: true, 
-  }));
 
   app.use(
     session({
@@ -64,7 +46,7 @@ async function main() {
 
   const server = new ApolloServer({
     schema: await buildSchema({
-      resolvers: [HelloResolver, UserResolver, PostResolver, ImageLikeResolver ,ImageResolver],
+      resolvers: [UserResolver,],
       validate: false,
     }),
   });
