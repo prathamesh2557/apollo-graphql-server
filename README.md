@@ -1,4 +1,4 @@
-# Nodefs
+# Node-Apollo-Graphql server
 
 this project is just demo for other project(repo will be commited soon)
 Mainly TS is used.
