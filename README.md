@@ -8,7 +8,7 @@ Used Mikro-ORM & Apollo,GraphQL.
 
 # About dist dir
 at terminal "yarn watch" it will make dist folder,
-to run "yarn dev/start" NOTE WITHOUT dist folder yarn can't dev/start so make sure you specified correct dir.
+to run "yarn dev/start" NOTE WITHOUT dist folder yarn can't dev/start so make sure you specified correct dir. 
 
 # Commands
 
