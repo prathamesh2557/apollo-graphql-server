@@ -18,4 +18,4 @@ inside package.json
     "dev": "nodemon dist/index.js",<br>
     "start2": "ts-node src/index.ts",<br>
     "dev2": "nodemon --exec ts-node src/index.ts" <br>
- Use yarn to use the following commands and to install dependencies.
+ Use yarn to use the following commands and to install dependencies. 
