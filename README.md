@@ -72,24 +72,8 @@ yarn create:mig
 Start the Server:
 yarn dev2  
 Open the GraphQL Playground at http://localhost:4000/graphql.
-Example GraphQL Queries
 
-Query Users:
-query {  
-  users {  
-    id  
-    username  
-  }  
-}  
-Create a User:
-mutation {  
-  register(username: "user", password: "pass") {  
-    user {  
-      id  
-      username  
-    }  
-  }  
-}  
+
 License
 
 This project is licensed under the MIT License.
