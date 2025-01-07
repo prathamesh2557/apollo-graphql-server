@@ -12,7 +12,7 @@ Redis Integration: For session management.
 Cloudinary: For handling image uploads. 
 Requirements 
  
-Node.js (16.x or higher)
+Node.js (16.x or higher) 
 PostgreSQL
 Redis
 Installation
