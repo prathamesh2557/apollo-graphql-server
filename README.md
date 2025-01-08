@@ -10,7 +10,7 @@ PostgreSQL: As the database.
 TypeScript: For robust type checking and cleaner code.
 Redis Integration: For session management. 
 Cloudinary: For handling image uploads. 
-Requirements 
+Requirements  
  
 Node.js (16.x or higher) 
 PostgreSQL
