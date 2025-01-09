@@ -13,7 +13,7 @@ Cloudinary: For handling image uploads.
 Requirements  
  
 Node.js (16.x or higher) 
-PostgreSQL
+PostgreSQL 
 Redis
 Installation
 
