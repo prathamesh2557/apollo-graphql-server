@@ -1,4 +1,4 @@
-import express from 'express';
+import express from 'express'; 
 require('dotenv').config();
 import { SESSION_SECRET } from './constants';
 import { ApolloServer } from '@apollo/server';
