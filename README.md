@@ -2,7 +2,7 @@ Apollo GraphQL Server with TypeScript
 
 This project is a robust Apollo GraphQL server implemented in TypeScript. It uses PostgreSQL as the database, managed by MikroORM, and includes essential features like session management, migrations, and more.
 
-Features 
+Features  
 
 Apollo Server: For building a GraphQL API. 
 MikroORM: For object-relational mapping and database management.   
