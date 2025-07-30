@@ -4,7 +4,7 @@ import { Resolver, InputType, Arg, Field, Ctx, Mutation, ObjectType, Query } fro
 import argon2 from 'argon2';
 import { COOKIE_NAME } from '../constants';
 
-@InputType()
+@InputType() 
 class UserPasswordInput {
     @Field()
     username!: string;
