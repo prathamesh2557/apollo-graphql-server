@@ -1,7 +1,7 @@
 import express from 'express'; 
 require('dotenv').config(); 
 import { SESSION_SECRET } from './constants';
-import { ApolloServer } from '@apollo/server';
+import { ApolloServer } from '@apollo/server'; 
 import { expressMiddleware } from '@apollo/server/express4';
 import bodyParser from 'body-parser';  
 import 'reflect-metadata';
