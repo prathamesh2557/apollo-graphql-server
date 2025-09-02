@@ -2,7 +2,7 @@ import { __prod__ } from './constants';
 import { defineConfig, UnderscoreNamingStrategy } from '@mikro-orm/postgresql'; 
 import path from 'path';
 import { User } from './entities/User';
-
+ 
 export default defineConfig({
   migrations: {
     path: path.join(__dirname, './migrations'),
