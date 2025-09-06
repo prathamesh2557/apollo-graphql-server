@@ -4,7 +4,7 @@ import { SESSION_SECRET } from './constants';
 import { ApolloServer } from '@apollo/server'; 
 import { expressMiddleware } from '@apollo/server/express4';
 import bodyParser from 'body-parser';  
-import 'reflect-metadata';
+import 'reflect-metadata'; 
 import { MikroORM } from '@mikro-orm/postgresql';
 import mikroConfig from './mikro-orm.config';
 import { buildSchema } from 'type-graphql';
