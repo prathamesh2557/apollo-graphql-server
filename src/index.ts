@@ -10,7 +10,7 @@ import mikroConfig from './mikro-orm.config';
 import { buildSchema } from 'type-graphql';
 import { UserResolver } from './resolvers/user'; 
 import session from 'express-session'; 
-import Redis from 'ioredis';
+import Redis from 'ioredis'; 
 const connectRedis = require('connect-redis');
 
 async function main() {
