@@ -2,7 +2,7 @@ import { User } from '../entities/User';
 import { MyContext } from "src/types";
 import { Resolver, InputType, Arg, Field, Ctx, Mutation, ObjectType, Query } from "type-graphql";
 import argon2 from 'argon2';
-import { COOKIE_NAME } from '../constants';
+import { COOKIE_NAME } from '../constants'; 
 
 @InputType() 
 class UserPasswordInput {
