@@ -15,7 +15,7 @@ Node.js (16.x or higher)
 PostgreSQL 
 Redis
 Installation
-
+ 
 Clone the repository:
 git clone https://github.com/your-repository/nodets.git  
 cd nodets  
