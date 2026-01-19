@@ -17,7 +17,7 @@ Redis
 Installation
  
 Clone the repository:
-git clone https://github.com/your-repository/nodets.git  
+git clone https://github.com/prathamesh2557/nodets.git  
 cd nodets  
 Install dependencies:
 yarn install  
