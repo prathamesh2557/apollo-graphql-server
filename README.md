@@ -55,45 +55,20 @@ yarn install
 
 3. Environment variables
 
-Create a .env file in the root directory and add your configuration:
+Create a .env file in the root directory and add your configuration
 
-DB_NAME=your_database_name
-DB_USER=your_username
-DB_PASSWORD=your_password
-DB_HOST=localhost
-DB_PORT=5432
-
-REDIS_URL=redis://localhost:6379
-SESSION_SECRET=your_secret_key
 
 Available Scripts
 Command	Description <br>
-yarn start	Start the production server <br>
-yarn dev2	Start the server in development mode (ts-node) <br>
-yarn watch	Watch and recompile TypeScript files <br>
-yarn create:mig	Create a new database migration <br>
-Project Structure <br>
-src/
-├── entities/            # MikroORM entity definitions
-├── resolvers/           # GraphQL resolvers
-├── migrations/          # Database migration files
-├── utils/               # Utility/helper functions
-├── index.ts             # Application entry point
-├── mikro-orm.config.ts  # MikroORM configuration
 
-Configuration
-MikroORM (src/mikro-orm.config.ts)
+1. yarn start	Start the production server <br>
 
-Make sure your PostgreSQL credentials are correctly set:
+2. yarn dev2	Start the server in development mode (ts-node) <br>
 
-export default {
-  entities: ['./dist/entities'],
-  entitiesTs: ['./src/entities'],
-  dbName: 'your-database-name',
-  type: 'postgresql',
-  user: 'your-username',
-  password: 'your-password',
-};
+3. yarn watch	Watch and recompile TypeScript files <br>
+
+4. yarn create:mig	Create a new database migration <br>
+
 
 Session Management:
 
