@@ -3,7 +3,7 @@ Apollo GraphQL Server with TypeScript
 A robust Apollo GraphQL server built with TypeScript, PostgreSQL, and MikroORM.
 This project includes essential backend features such as session management with Redis, database migrations, and a clean, scalable project structure.
 
-Features
+Features:
 
 Apollo Server – Build and serve a GraphQL API
 
@@ -19,7 +19,7 @@ Express – HTTP server integration
 
 TypeGraphQL – Type-safe GraphQL schema and resolvers
 
-Tech Stack
+Tech Stack:
 
 Node.js
 
@@ -35,7 +35,7 @@ Redis
 
 Express
 
-Requirements
+Requirements:
 
 Make sure you have the following installed:
 
@@ -45,7 +45,7 @@ PostgreSQL
 
 Redis
 
-Installation
+Installation:
 1. Clone the repository
 git clone https://github.com/prathamesh2557/nodets.git
 cd nodets
@@ -95,7 +95,7 @@ export default {
   password: 'your-password',
 };
 
-Session Management
+Session Management:
 
 Sessions are stored in Redis
 
@@ -103,7 +103,7 @@ Implemented using connect-redis
 
 Automatically persists login state across requests
 
-How to Use
+How to Use:
 Run database migrations
 yarn create:mig
 
@@ -116,11 +116,11 @@ Visit:
 
 http://localhost:4000/graphql
 
-License
+License:
 
 This project is licensed under the MIT License.
 
-Author
+Author:
 
 Prathamesh2557
 Email: prathamesh2557@gmail.com
