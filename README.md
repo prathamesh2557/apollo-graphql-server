@@ -67,12 +67,12 @@ REDIS_URL=redis://localhost:6379
 SESSION_SECRET=your_secret_key
 
 Available Scripts
-Command	Description
-yarn start	Start the production server
-yarn dev2	Start the server in development mode (ts-node)
-yarn watch	Watch and recompile TypeScript files
-yarn create:mig	Create a new database migration
-Project Structure
+Command	Description <br>
+yarn start	Start the production server <br>
+yarn dev2	Start the server in development mode (ts-node) <br>
+yarn watch	Watch and recompile TypeScript files <br>
+yarn create:mig	Create a new database migration <br>
+Project Structure <br>
 src/
 ├── entities/            # MikroORM entity definitions
 ├── resolvers/           # GraphQL resolvers
